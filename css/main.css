@@ -2270,7 +2270,7 @@ div.ccm-page .nav-pills li.nav-item a small::before {
 .text-deco-wave {
 	text-decoration: underline var(--primary) 2px;
 	text-decoration-style: wavy;
-	text-underline-offset: 0.375em;
+	text-underline-offset: 0.175em;
 }
 
 .tooltips {
@@ -2279,7 +2279,7 @@ div.ccm-page .nav-pills li.nav-item a small::before {
 }
 .tooltips .tips {
   display: inline-block;
-  top: 36px;
+  top: 30px;
   left: -15%;
 }
 .tips {
