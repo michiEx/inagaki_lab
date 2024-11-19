@@ -213,7 +213,7 @@ div.ccm-page dd {
 
 div.ccm-page #main-header-home {
   border-bottom: 6px solid var(--primary);
-  margin-top: 158px;
+  margin-top: 169px;
   min-height: 620px;
   /* background-image: url(../images/main-header-home.jpg);
   background-repeat: no-repeat;
@@ -242,9 +242,9 @@ div.ccm-page #main-header-home span {
 }
 
 div.ccm-page #main-header-page {
-  margin-top: 158px;
+  margin-top: 169px;
   min-height: 170px;
-  /*background-image: url(../images/main-header-page.jpg);*/
+  background-image: url(../images/main-header-page.jpg);
   background-repeat: no-repeat;
   background-position: right center;
   background-size: cover;
