@@ -2267,10 +2267,14 @@ div.ccm-page .nav-pills li.nav-item a small::before {
 	background-color: var(--primary);
 }
 
+.text-deco {
+	border-bottom: 3px dotted var(--primary);
+	padding-bottom: 0.025em;
+}
 .text-deco-wave {
 	text-decoration: underline var(--primary) 2px;
 	text-decoration-style: wavy;
-	text-underline-offset: 0.175em;
+	text-underline-offset: 0.125em;
 }
 
 .tooltips {
@@ -2280,14 +2284,12 @@ div.ccm-page .nav-pills li.nav-item a small::before {
 .tooltips .tips {
   display: inline-block;
   top: 30px;
-  left: -15%;
+  left: -14%;
 }
 .tips {
   position: absolute;
   padding: 0.275em 0.75em;
   color: var(--primary);
-  border-radius: 5px;
-  background: #fff;
   width: auto;
 }
 .tipsdesc {
