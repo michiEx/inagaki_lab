@@ -1350,7 +1350,7 @@ div.ccm-page .btn-normal {
   background-color: transparent;
   border: 2px solid var(--primary);
   text-align: center;
-  transition: background-color 0.2s ease-out, border-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
 }
 
 div.ccm-page a.btn-normal:hover,
@@ -1361,7 +1361,24 @@ div.ccm-page .btn-normal:focus,
 div.ccm-page .btn-normal:active {
   color: #fff !important;
   background-color: color-mix(in srgb, var(--primary) 80%, transparent);
-  transition: background-color 0.3s ease-in, border-color 0.3s ease-in;
+  transition: background-color 0.3s ease-in;
+}
+
+div.ccm-page a.btn-album {
+  border-radius: 50px;
+  color: rgb(var(--secondary-rgb), 0.75);
+  background-color: transparent;
+  border: 2px solid rgb(var(--secondary-rgb), 0.75);
+  text-align: center;
+  transition: background-color 0.2s ease-out;
+}
+
+div.ccm-page a.btn-album:hover,
+div.ccm-page a.btn-album:focus,
+div.ccm-page a.btn-album:active {
+  color: #fff !important;
+  background-color: color-mix(in srgb, var(--secondary) 75%, transparent);
+  transition: background-color 0.3s ease-in;
 }
 
 /* spacer
