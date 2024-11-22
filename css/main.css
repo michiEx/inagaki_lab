@@ -88,7 +88,7 @@ div.ccm-page .h2 {
   color: var(--primary);
   margin-bottom: 0.75em;
   padding-bottom: 0.25em;
-  border-bottom: 2px solid var(--primary);
+  border-bottom: 3px solid var(--bg-primary);
 }
 
 div.ccm-page h3,
@@ -98,7 +98,7 @@ div.ccm-page .h3 {
   color: var(--primary);
   margin-bottom: 0.75em;
   padding-bottom: 0.25em;
-  border-bottom: 1px solid var(--primary);
+  border-bottom: 2px solid var(--bg-primary);
 }
 
 div.ccm-page h4,
@@ -564,7 +564,6 @@ div.ccm-page #seren-masthead-right {
 
   div.ccm-page .navbar-nav > li:has(small) > a {
     padding: 15px 10px !important;
-	font-size: 0.875em;
   }
 }
 
@@ -578,6 +577,10 @@ div.ccm-page #seren-masthead-right {
   }
 	
   div.ccm-page .navbar-nav > li:has(small) > a {
+	font-weight: 500;
+  }
+  
+  div.ccm-page .navbar-nav > li > a small {
 	font-size: 0.925em;
   }
 }
@@ -1031,6 +1034,7 @@ div.ccm-page #sidebar h3 {
 
 div.ccm-page ul.seren-vertical-menu {
   margin-bottom: 20px;
+  border-top: 1px solid #ccc;
 }
 
 div.ccm-page ul.seren-vertical-menu > li {
