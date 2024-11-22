@@ -212,14 +212,14 @@ div.ccm-page dd {
 -------------------------------------------------- */
 
 div.ccm-page #main-header-home {
-  border-bottom: 6px solid var(--primary);
   margin-top: 169px;
   min-height: 620px;
   /* background-image: url(../images/main-header-home.jpg);
   background-repeat: no-repeat;
   background-position: right 0px top 0px;
   background-position:  center;
-  background-size: cover; */
+  background-size: cover;
+  border-bottom: 6px solid var(--primary); */
 }
 
 div.ccm-page .backstretch .backstretch-item img {
@@ -1086,7 +1086,7 @@ div.ccm-page ul.seren-vertical-menu > li > a:hover:before {
 div.ccm-page ul.seren-vertical-menu > li.selected {
   color: #ffffff !important;
   font-weight: 600;
-  background: linear-gradient(90deg, color-mix(in srgb, var(--primary) 100%, transparent), color-mix(in srgb, var(--primary) 60%, transparent));
+  background: linear-gradient(90deg, color-mix(in srgb, var(--primary) 70%, transparent), color-mix(in srgb, var(--primary) 50%, transparent));
 }
 
 div.ccm-page ul.seren-vertical-menu > li.selected a,
