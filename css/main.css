@@ -153,7 +153,7 @@ div.ccm-page h6 small {
   color: var(--secondary);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
   div.ccm-page h1,
   div.ccm-page .h1 {
     font-size: 24px;
@@ -195,15 +195,17 @@ div.ccm-page h6 small {
 div.ccm-page p,
 div.ccm-page li,
 div.ccm-page dt,
-div.ccm-page dd {
+div.ccm-page dd,
+div.ccm-page .btn {
   font-size: 1em;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
   div.ccm-page p,
   div.ccm-page li,
   div.ccm-page dt,
-  div.ccm-page dd {
+  div.ccm-page dd,
+  div.ccm-page .btn {
     font-size: 0.875em;
   }
 }
@@ -306,7 +308,7 @@ div.ccm-page .navbar-toggler {
   padding: 4px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
   div.ccm-page #seren-main-nav {
     background-color: var(--bg-secondary);
   }
@@ -447,7 +449,7 @@ div.ccm-page #seren-masthead-right {
   transition: background-color 0.3s ease-in, border-color 0.3s ease-in;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
   div.ccm-page .navbar-nav > li > a > div {
     margin: 0;
   }
@@ -537,7 +539,7 @@ div.ccm-page #seren-masthead-right {
   }
 }
 
-@media screen and (max-width: 1401px) {
+@media screen and (max-width: 1.99.98px) {
   div.ccm-page .navbar-nav > li > a {
     padding: 23px 30px !important;
   }
@@ -547,7 +549,7 @@ div.ccm-page #seren-masthead-right {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199.98px) {
   div.ccm-page .navbar-nav > li > a {
     padding: 23px 20px !important;
   }
@@ -557,7 +559,7 @@ div.ccm-page #seren-masthead-right {
   }
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 991.98px) {
   div.ccm-page .navbar-nav > li > a {
     padding: 23px 10px !important;
   }
@@ -567,7 +569,7 @@ div.ccm-page #seren-masthead-right {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
   div.ccm-page .navbar-nav > li > a {
     padding: 12px 4px !;
   }
@@ -605,7 +607,7 @@ div.ccm-page .home-concept p {
   text-align: justify;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
   div.ccm-page .home-concept,
   div.ccm-page .home-news {
     padding-top: 1.75em;
@@ -644,7 +646,7 @@ div.ccm-page #main-section li {
   font-size: 1em;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
   div.ccm-page #main-section {
     padding-bottom: 30px;
   }
@@ -758,22 +760,9 @@ div.ccm-page #bottom-footer .logo {
   padding-top: 8px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
   div.ccm-page #bottom-footer .logo {
     text-align: left;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .footer-logo {
-    margin-bottom: 16px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .footer-logo {
-    width: 300px;
-    margin-bottom: 16px;
   }
 }
 
@@ -785,7 +774,7 @@ div.ccm-page .banner {
   margin-top: 15px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199.98px) {
   div.ccm-page .banner {
     display: flex;
     flex-direction: row;
@@ -799,19 +788,19 @@ div.ccm-page .banner > div {
   margin-bottom: 15px;
 }
 
-/* max-width: 1400px
+/* max-width: 1399.98px
 -------------------------------------------------- */
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1399.98px) {
   div.ccm-page #main-header-home h1 {
     margin: 0px;
     padding: 280px 0;
   }
 }
 
-/* max-width: 1199px
+/* max-width: 1199.98px
 -------------------------------------------------- */
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1199.98px) {
   div.ccm-page nav.navbar {
     min-height: 120px;
   }
@@ -843,10 +832,10 @@ div.ccm-page .banner > div {
   }
 }
 
-/* max-width: 991px
+/* max-width: 991.98px
 -------------------------------------------------- */
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 991.98px) {
   div.ccm-page nav.navbar {
     min-height: 120px;
   }
@@ -2004,9 +1993,7 @@ table.vertical-align-middle > tbody > tr > td {
     display: flex;
     flex-wrap: wrap;
   }
-}
-
-@media screen and (min-width: 768px) {
+  
   .dl-horizontal-left dt {
     float: left;
     width: 100px;
@@ -2058,14 +2045,14 @@ table {
   width: 100%;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 991.98px) {
   .table-member tr td:nth-child(2),
   .table-member tr th:nth-child(2) {
     width: 18%;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 639.98px) {
   .table-member {
     width: 100%;
   }
@@ -2156,34 +2143,6 @@ a.disabled small {
   color: #d2d2d2 !important;
 }
 
-.sp-only {
-  display: none;
-}
-
-.pc-only {
-  display: block;
-}
-
-.w-65 {
-  width: 65%;
-  margin: 0 auto;
-}
-
-@media screen and (max-width: 576px) {
-  .pc-only {
-    display: none;
-  }
-
-  .sp-only {
-    display: block;
-  }
-
-  .w-65 {
-    width: 100%;
-    margin: 0 auto;
-  }
-}
-
 /* animation ------------------- */
 
 .fadeUp {
@@ -2191,18 +2150,6 @@ a.disabled small {
   animation: textAnime 1s forwards, gradationTextAnimation 3s linear infinite;
   display: inline-block;
   /* text-align: center; */
-}
-
-@keyframes textAnime {
-  0% {
-    -webkit-clip-path: inset(0 100% 0 0);
-    clip-path: inset(0 100% 0 0);
-  }
-
-  100% {
-    webkit-clip-path: inset(0);
-    clip-path: inset(0);
-  }
 }
 
 /* figcaption ------------------- */
@@ -2262,13 +2209,13 @@ div.ccm-page .nav-pills li.nav-item a small::before {
   white-space: pre;
 }
 
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 819.98px) {
   div.ccm-page .nav-pills li.nav-item {
     font-size: 15px !important;
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767.98px) {
   div.ccm-page .nav-pills {
     flex-flow: column;
   }
