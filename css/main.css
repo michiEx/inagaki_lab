@@ -1796,6 +1796,37 @@ div.ccm-page ol.no-border li:before {
   text-align: right;
 }
 
+/* accordionOriginal
+-------------------------------------------------- */
+#accordionOriginal .accordion-item {
+  border: none;
+}
+
+#accordionOriginal .accordion-button {
+  display: inline-block;
+  width: auto;
+  margin-top: 0;
+  padding: 0.25em 1em;
+  border-radius: 50px;
+  color: rgb(var(--secondary-rgb), 0.75);
+  background-color: transparent;
+  border: 2px solid rgb(var(--secondary-rgb), 0.75);
+  vertical-align: middle;
+  transition: background-color 0.2s ease-out;
+}
+#accordionOriginal .accordion-button:hover {
+  box-shadow: none;
+  color: #fff !important;
+  background-color: color-mix(in srgb, var(--secondary) 75%, transparent);
+}
+#accordionOriginal .accordion-button:focus,
+#accordionOriginal .accordion-button:active {
+  box-shadow: none;
+}
+#accordionOriginal .accordion-body {
+  padding: 0;
+}
+
 /* Alubm, Link
 -------------------------------------------------- */
 
