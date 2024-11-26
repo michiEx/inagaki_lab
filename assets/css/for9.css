@@ -1,0 +1,25 @@
+.ccm-toolbar-visible div.ccm-page {
+  margin: 0 !important;
+  padding-bottom: 0 !important
+}
+div.ccm-page ul.styled li::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f0da";
+  color: var(--primary);
+  position: absolute;
+  left: 0;
+  display: block;
+  width: 1.6em;
+  text-align: right
+}
+div.ccm-page .panel-original .panel-heading a::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f077";
+  color: var(--primary);
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%)
+}
