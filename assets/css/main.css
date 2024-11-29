@@ -2112,3 +2112,14 @@ div.ccm-page .nav-pills li.nav-item a small::before {
   color: var(--primary);
   white-space: nowrap;
 }
+
+@media screen and (min-width: 1200px) {
+  .member-photo {
+  width: 70%;
+  }
+}
+@media screen and (max-width: 575.98px) {
+  .member-photo {
+  width: 50%;
+  }
+}
